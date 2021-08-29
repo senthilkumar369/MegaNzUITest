@@ -1,0 +1,91 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "time" : {
+      "start" : 1630226242180,
+      "stop" : 1630234502697,
+      "duration" : 8260517,
+      "minDuration" : 30691,
+      "maxDuration" : 2534425,
+      "sumDuration" : 2688485
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 5,
+    "items" : [ ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ],
+  "behaviors" : {
+    "total" : 4,
+    "items" : [ {
+      "uid" : "7ab6951c9b4e8c0c3e463e1da35a8fd9",
+      "name" : "Test file creation features",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "3d59d0ee63bc56f4762b17d20171f382",
+      "name" : "To test the linux desktop application downloads",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "d990fd876889691a2b7e1b9c316ac82b",
+      "name" : "Test file restore features",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "800fb504f8f151947c7c9ff7d1df46eb",
+      "name" : "Test file Deletion features",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

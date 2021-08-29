@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+    "uid" : "8ef0e70e4a7ba2c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630229524548,
+      "stop" : 1630229565779,
+      "duration" : 41231
+    },
+    "flaky" : false,
+    "parameters" : [ "a.txt" ]
+  }, {
+    "name" : "This test to RESTORE Files from RUBBISH BIN and confirm RESTORED -- @1.1 ",
+    "uid" : "2040533de52b6b7e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630234341303,
+      "stop" : 1630234373794,
+      "duration" : 32491
+    },
+    "flaky" : true,
+    "parameters" : [ "a.txt" ]
+  }, {
+    "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+    "uid" : "5835bbd803d55f9b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630234472006,
+      "stop" : 1630234502697,
+      "duration" : 30691
+    },
+    "flaky" : false,
+    "parameters" : [ "a.txt" ]
+  }, {
+    "name" : "This test to create a text file and saves successfully -- @1.1 ",
+    "uid" : "7c2596da918c21f0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630229423197,
+      "stop" : 1630229472844,
+      "duration" : 49647
+    },
+    "flaky" : true,
+    "parameters" : [ "megatesting", "a.txt" ]
+  }, {
+    "name" : "selected files downloads successfully",
+    "uid" : "e570d8839bd3083b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630226242180,
+      "stop" : 1630228776605,
+      "duration" : 2534425
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

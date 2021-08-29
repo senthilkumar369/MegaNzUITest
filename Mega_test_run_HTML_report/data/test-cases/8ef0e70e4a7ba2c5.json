@@ -1,0 +1,167 @@
+{
+  "uid" : "8ef0e70e4a7ba2c5",
+  "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+  "fullName" : "Test file creation features: This test to DELETE a text file and confirms deleted",
+  "historyId" : "39ac8657964006699cc38ffbcd5e8aa1",
+  "time" : {
+    "start" : 1630229524548,
+    "stop" : 1630229565779,
+    "duration" : 41231
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Open Mega Portal",
+      "time" : {
+        "start" : 1630229535947,
+        "stop" : 1630229545723,
+        "duration" : 9776
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When login with valid credentials",
+      "time" : {
+        "start" : 1630229545723,
+        "stop" : 1630229555313,
+        "duration" : 9590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it navigates to FileManager successfully",
+      "time" : {
+        "start" : 1630229555313,
+        "stop" : 1630229559958,
+        "duration" : 4645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given a text file with filename as a.txt",
+      "time" : {
+        "start" : 1630229559959,
+        "stop" : 1630229560113,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Search AND Delete the file in FILE_MANAGER",
+      "time" : {
+        "start" : 1630229560113,
+        "stop" : 1630229564560,
+        "duration" : 4447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it should be deleted successfully",
+      "time" : {
+        "start" : 1630229564560,
+        "stop" : 1630229565779,
+        "duration" : 1219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Chrome"
+  }, {
+    "name" : "tag",
+    "value" : "Firefox"
+  }, {
+    "name" : "feature",
+    "value" : "Test file creation features"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "filename",
+    "value" : "a.txt"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33a97ed092ef0da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630225093895,
+        "stop" : 1630225121209,
+        "duration" : 27314
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Chrome", "Firefox" ]
+  },
+  "source" : "8ef0e70e4a7ba2c5.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "a.txt" ]
+}

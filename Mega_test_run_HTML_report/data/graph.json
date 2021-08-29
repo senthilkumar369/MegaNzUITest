@@ -1,0 +1,51 @@
+[ {
+  "uid" : "8ef0e70e4a7ba2c5",
+  "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+  "time" : {
+    "start" : 1630229524548,
+    "stop" : 1630229565779,
+    "duration" : 41231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2040533de52b6b7e",
+  "name" : "This test to RESTORE Files from RUBBISH BIN and confirm RESTORED -- @1.1 ",
+  "time" : {
+    "start" : 1630234341303,
+    "stop" : 1630234373794,
+    "duration" : 32491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5835bbd803d55f9b",
+  "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+  "time" : {
+    "start" : 1630234472006,
+    "stop" : 1630234502697,
+    "duration" : 30691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c2596da918c21f0",
+  "name" : "This test to create a text file and saves successfully -- @1.1 ",
+  "time" : {
+    "start" : 1630229423197,
+    "stop" : 1630229472844,
+    "duration" : 49647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e570d8839bd3083b",
+  "name" : "selected files downloads successfully",
+  "time" : {
+    "start" : 1630226242180,
+    "stop" : 1630228776605,
+    "duration" : 2534425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

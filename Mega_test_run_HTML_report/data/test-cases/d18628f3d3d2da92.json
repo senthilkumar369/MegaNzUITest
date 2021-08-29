@@ -1,0 +1,159 @@
+{
+  "uid" : "d18628f3d3d2da92",
+  "name" : "This test to create a text file and saves successfully -- @1.1 ",
+  "fullName" : "Test file creation features: This test to create a text file and saves successfully",
+  "historyId" : "5cdc33f53a6caca8c0416c5ed55405cc",
+  "time" : {
+    "start" : 1630225028580,
+    "stop" : 1630225065559,
+    "duration" : 36979
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Open Mega Portal",
+      "time" : {
+        "start" : 1630225036375,
+        "stop" : 1630225042951,
+        "duration" : 6576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When login with valid credentials",
+      "time" : {
+        "start" : 1630225042951,
+        "stop" : 1630225052339,
+        "duration" : 9388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it navigates to FileManager successfully",
+      "time" : {
+        "start" : 1630225052339,
+        "stop" : 1630225052827,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given create a text file with filename as a.txt",
+      "time" : {
+        "start" : 1630225052827,
+        "stop" : 1630225054226,
+        "duration" : 1399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When add text as megatesting",
+      "time" : {
+        "start" : 1630225054226,
+        "stop" : 1630225065484,
+        "duration" : 11258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it save the text file successfully",
+      "time" : {
+        "start" : 1630225065484,
+        "stop" : 1630225065558,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Chrome"
+  }, {
+    "name" : "tag",
+    "value" : "Firefox"
+  }, {
+    "name" : "feature",
+    "value" : "Test file creation features"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Test_text",
+    "value" : "megatesting"
+  }, {
+    "name" : "filename",
+    "value" : "a.txt"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ "Chrome", "Firefox" ]
+  },
+  "source" : "d18628f3d3d2da92.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "megatesting", "a.txt" ]
+}

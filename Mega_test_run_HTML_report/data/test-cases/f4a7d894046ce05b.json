@@ -1,0 +1,170 @@
+{
+  "uid" : "f4a7d894046ce05b",
+  "name" : "This test to RESTORE Files from RUBBISH BIN and confirm RESTORED -- @1.1 ",
+  "fullName" : "Test file restore features: This test to RESTORE Files from RUBBISH BIN and confirm RESTORED",
+  "historyId" : "fd88b96451ac2fa24783c70f763e50c9",
+  "time" : {
+    "start" : 1630229598801,
+    "stop" : 1630229705956,
+    "duration" : 107155
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"1c4kTQhJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+    "trace" : "  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RestoreFileTestStep.py\", line 21, in restore_001_002\n    context.rubbishPage.find_and_restore_files(context.filename)\n  File \"C:\\Users\\senthilk\\Documents\\MegaTest\\pages\\RubbishBinPage.py\", line 28, in find_and_restore_files\n    e.click()\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"1c4kTQhJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+      "trace" : "  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RestoreFileTestStep.py\", line 21, in restore_001_002\n    context.rubbishPage.find_and_restore_files(context.filename)\n  File \"C:\\Users\\senthilk\\Documents\\MegaTest\\pages\\RubbishBinPage.py\", line 28, in find_and_restore_files\n    e.click()\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Given Open Mega Portal",
+      "time" : {
+        "start" : 1630229684492,
+        "stop" : 1630229692341,
+        "duration" : 7849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When login with valid credentials",
+      "time" : {
+        "start" : 1630229692342,
+        "stop" : 1630229701934,
+        "duration" : 9592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it navigates to FileManager successfully",
+      "time" : {
+        "start" : 1630229701935,
+        "stop" : 1630229703943,
+        "duration" : 2008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given Restore text file with filename as a.txt in Rubbish Bin",
+      "time" : {
+        "start" : 1630229703944,
+        "stop" : 1630229704947,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Search AND RESTORE the file from RUBBISH Bin",
+      "time" : {
+        "start" : 1630229704948,
+        "stop" : 1630229705936,
+        "duration" : 988
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "message" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"1c4kTQhJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+        "trace" : "  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RestoreFileTestStep.py\", line 21, in restore_001_002\n    context.rubbishPage.find_and_restore_files(context.filename)\n  File \"C:\\Users\\senthilk\\Documents\\MegaTest\\pages\\RubbishBinPage.py\", line 28, in find_and_restore_files\n    e.click()\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then it should be RESTORED to FILE_MANAGER successfully",
+      "time" : {
+        "start" : 1630229705956,
+        "stop" : 1630229705956,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Chrome"
+  }, {
+    "name" : "tag",
+    "value" : "Firefox"
+  }, {
+    "name" : "feature",
+    "value" : "Test file restore features"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "filename",
+    "value" : "a.txt"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ "Chrome", "Firefox" ]
+  },
+  "source" : "f4a7d894046ce05b.json",
+  "statusDetailsSafe" : {
+    "message" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"1c4kTQhJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+    "trace" : "  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\RestoreFileTestStep.py\", line 21, in restore_001_002\n    context.rubbishPage.find_and_restore_files(context.filename)\n  File \"C:\\Users\\senthilk\\Documents\\MegaTest\\pages\\RubbishBinPage.py\", line 28, in find_and_restore_files\n    e.click()\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\users\\senthilk\\appdata\\local\\continuum\\anaconda3\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ "a.txt" ]
+}

@@ -1,0 +1,247 @@
+{
+  "uid" : "2040533de52b6b7e",
+  "name" : "This test to RESTORE Files from RUBBISH BIN and confirm RESTORED -- @1.1 ",
+  "fullName" : "Test file restore features: This test to RESTORE Files from RUBBISH BIN and confirm RESTORED",
+  "historyId" : "fd88b96451ac2fa24783c70f763e50c9",
+  "time" : {
+    "start" : 1630234341303,
+    "stop" : 1630234373794,
+    "duration" : 32491
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Open Mega Portal",
+      "time" : {
+        "start" : 1630234349606,
+        "stop" : 1630234356863,
+        "duration" : 7257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When login with valid credentials",
+      "time" : {
+        "start" : 1630234356864,
+        "stop" : 1630234366231,
+        "duration" : 9367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it navigates to FileManager successfully",
+      "time" : {
+        "start" : 1630234366231,
+        "stop" : 1630234366538,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given Restore text file with filename as a.txt in Rubbish Bin",
+      "time" : {
+        "start" : 1630234366538,
+        "stop" : 1630234366726,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When Search AND RESTORE the file from RUBBISH Bin",
+      "time" : {
+        "start" : 1630234366726,
+        "stop" : 1630234372907,
+        "duration" : 6181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then it should be RESTORED to FILE_MANAGER successfully",
+      "time" : {
+        "start" : 1630234372908,
+        "stop" : 1630234373794,
+        "duration" : 886
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Chrome"
+  }, {
+    "name" : "tag",
+    "value" : "Firefox"
+  }, {
+    "name" : "feature",
+    "value" : "Test file restore features"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "filename",
+    "value" : "a.txt"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd95abf0b5043612",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"ZQwiyCwJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+      "time" : {
+        "start" : 1630234244531,
+        "stop" : 1630234274209,
+        "duration" : 29678
+      }
+    }, {
+      "uid" : "9a5549264d13f165",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"ZQwiyCwJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+      "time" : {
+        "start" : 1630234134479,
+        "stop" : 1630234164025,
+        "duration" : 29546
+      }
+    }, {
+      "uid" : "454fe956ac72ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630234054711,
+        "stop" : 1630234085571,
+        "duration" : 30860
+      }
+    }, {
+      "uid" : "157b6f35c3fe7c15",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"ZQwiyCwJ\" class=\"file megaListItem ui-selectee ui-draggable ui-draggable-handle\"> could not be scrolled into view\n\n",
+      "time" : {
+        "start" : 1630233948432,
+        "stop" : 1630233978415,
+        "duration" : 29983
+      }
+    }, {
+      "uid" : "1b850966a0c6bf90",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"ZQwiyCwJ\" class=\"file megaListItem ui-selectee\"> could not be scrolled into view\n\n",
+      "time" : {
+        "start" : 1630233835285,
+        "stop" : 1630233867122,
+        "duration" : 31837
+      }
+    }, {
+      "uid" : "f4a7d894046ce05b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: Element <tr id=\"1c4kTQhJ\" class=\"file megaListItem ui-draggable ui-draggable-handle ui-selectee\"> could not be scrolled into view\n\n",
+      "time" : {
+        "start" : 1630229598801,
+        "stop" : 1630229705956,
+        "duration" : 107155
+      }
+    }, {
+      "uid" : "badf44804da2fb65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630225722766,
+        "stop" : 1630225755145,
+        "duration" : 32379
+      }
+    }, {
+      "uid" : "b0e0da0e44daa3dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "time" : {
+        "start" : 1630225408029,
+        "stop" : 1630225478528,
+        "duration" : 70499
+      }
+    }, {
+      "uid" : "eee239d6ce2dcc31",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "time" : {
+        "start" : 1630225293282,
+        "stop" : 1630225363137,
+        "duration" : 69855
+      }
+    }, {
+      "uid" : "ab283515dee8ddad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "time" : {
+        "start" : 1630225193065,
+        "stop" : 1630225263105,
+        "duration" : 70040
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Chrome", "Firefox" ]
+  },
+  "source" : "2040533de52b6b7e.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "a.txt" ]
+}

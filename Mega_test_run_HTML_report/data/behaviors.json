@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "To test the linux desktop application downloads",
+    "children" : [ {
+      "name" : "selected files downloads successfully",
+      "uid" : "e570d8839bd3083b",
+      "parentUid" : "3d59d0ee63bc56f4762b17d20171f382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630226242180,
+        "stop" : 1630228776605,
+        "duration" : 2534425
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3d59d0ee63bc56f4762b17d20171f382"
+  }, {
+    "name" : "Test file creation features",
+    "children" : [ {
+      "name" : "This test to create a text file and saves successfully -- @1.1 ",
+      "uid" : "7c2596da918c21f0",
+      "parentUid" : "7ab6951c9b4e8c0c3e463e1da35a8fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630229423197,
+        "stop" : 1630229472844,
+        "duration" : 49647
+      },
+      "flaky" : true,
+      "parameters" : [ "megatesting", "a.txt" ]
+    }, {
+      "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+      "uid" : "8ef0e70e4a7ba2c5",
+      "parentUid" : "7ab6951c9b4e8c0c3e463e1da35a8fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630229524548,
+        "stop" : 1630229565779,
+        "duration" : 41231
+      },
+      "flaky" : false,
+      "parameters" : [ "a.txt" ]
+    } ],
+    "uid" : "7ab6951c9b4e8c0c3e463e1da35a8fd9"
+  }, {
+    "name" : "Test file restore features",
+    "children" : [ {
+      "name" : "This test to RESTORE Files from RUBBISH BIN and confirm RESTORED -- @1.1 ",
+      "uid" : "2040533de52b6b7e",
+      "parentUid" : "d990fd876889691a2b7e1b9c316ac82b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630234341303,
+        "stop" : 1630234373794,
+        "duration" : 32491
+      },
+      "flaky" : true,
+      "parameters" : [ "a.txt" ]
+    } ],
+    "uid" : "d990fd876889691a2b7e1b9c316ac82b"
+  }, {
+    "name" : "Test file Deletion features",
+    "children" : [ {
+      "name" : "This test to DELETE a text file and confirms deleted -- @1.1 ",
+      "uid" : "5835bbd803d55f9b",
+      "parentUid" : "800fb504f8f151947c7c9ff7d1df46eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630234472006,
+        "stop" : 1630234502697,
+        "duration" : 30691
+      },
+      "flaky" : false,
+      "parameters" : [ "a.txt" ]
+    } ],
+    "uid" : "800fb504f8f151947c7c9ff7d1df46eb"
+  } ]
+}

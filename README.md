@@ -47,3 +47,5 @@ To generate Report
 allure generate report Mega_test_run_Json -o Mega_test_run_HTML_report
 
 It generate Mega_test_run_HTML_report, open index.html using firefox browser.
+
+**Note - some browsers stop viewing the Test result contents, to view it, it requires  some changes in the browser. there is a batch file "view.bat" available under the folder Mega Test HTML result , please run it in cases you cant view it.

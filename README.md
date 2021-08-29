@@ -42,3 +42,8 @@ To run, failed test cases.
 
 behave  -D browser=Firefox -f allure_behave.formatter:AllureFormatter  -o Mega_test_run_Json  -f pretty @rerun_failure.feature
 
+
+To generate Report
+allure generate report Mega_test_run_Json -o Mega_test_run_HTML_report
+
+It generate Mega_test_run_HTML_report, open index.html using firefox browser.

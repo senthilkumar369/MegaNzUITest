@@ -1,0 +1,60 @@
+{
+
+   "URL": {
+        "homeURL":"https:www.mega.co.nz"
+          },
+    "HomePage":{
+        "HomePage_Title":"MEGA",
+        "cookie_accept_all": "//*[@id='bodyel']/section[1]/div[4]/div[1]/div[2]/button[1]",
+        "lnk_Login":"//*[ @id='startholder' ]/div[ 2 ]/div/div[ 1 ]/section/div[ 4 ]/button[ 2 ]"
+
+    },
+    "LoginPage": {
+          "txtbox_username": "login-name2",
+          "txtbox_password": "login-password2",
+         "username_id":"senthilkumar369@gmail.com",
+          "password_id":"Orange@123",
+          "btn_loginlink": "// *[ @ id = 'login_form'] / button"
+              },
+    "FileManagerPage": {
+         "val_file_manager_page": "//*[@id='fmholder']/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/span",
+         "context_place": "//*[@id='fmholder']/div[4]/div[1]/div[5]/div[23]/div[2]/div[1]",
+          "clk_new_text_file": "//*[@id='fmholder']/div[3]/div[11]/a/span",
+          "set_filename_tbox": "//input[@name='dialog-new-file']",
+          "btn_file_create": "//*[@id='bodyel']/section[4]/div[9]/footer/div/button[2]",
+          "textarea": "//pre[@role='presentation']",
+          "addtext_to_TA": "//*[@id='bodyel']/section[2]/div/section/div/div[6]",
+          "save_text_area": "// button[ @ title = 'Save changes'] // span[contains(text(), 'Save')]",
+          "is_save_button_disabled": "//button[@class='mega-button positive gradient save-btn disabled']",
+          "is_loading_spinner_hidden": "//*[@id='bodyel']/div[13]",
+          "close_textArea": "//button[@class='close-btn']",
+          "confirm_file_on_fm": "//*[@id='YUhFSSjT']/td[3]/span[2]",
+          "filemanager_commonarea": "//*[@id='fmholder']/div[4]/div[1]/div[5]/div[23]/div[2]/div[1]",
+          "Table_in_file_manager": "//*[@class='grid-table table-hover fm megaListContainer']//tr",
+          "Option_remove_in_contextmenu": "//*[@id='fmholder']/div[3]/div[15]/a[2]/span",
+          "confirm_remove_file": "// *[ @ id = 'msgDialog'] / footer / div / div / button[2] / span",
+          "rubbish_bin_link_sidebar": " //button[@class='btn-myfiles js-lpbtn rubbish-bin js-fm-tab ui-droppable filled']"
+
+              },
+      "RubbishBinPage": {
+        "binfileslist": "//*[@id='fmholder']/div[4]/div[1]/div[5]/div[23]/div[1]",
+        "lnk_restore": "//*[@id='fmholder']/div[3]/div[9]/a[5]/span",
+        "cloudDrive_link_sideBar": "//button[@data-link='clouddrive']",
+        "Rubbish_commonarea": "//*[@id='fmholder']/div[4]/div[1]/div[5]/div[23]/div[2]/div[1]",
+
+        "Table_in_Rubbish_tab": "//*[@class='grid-table table-hover fm megaListContainer']//tr"
+      },
+      "FileDownloadPage": {
+          "menu_platform": "//div[@class='pages-menu link platforms submenu-item']//span[contains(text(),'Platforms')]",
+          "lnk_desktop_app": "//a[@class='pages-menu submenu-link clickurl']//span[contains(text(),'MEGA Desktop App')]",
+        "option_linux_tab": "//div[@class='bottom-page nav-buttons-bl contrast dark']//i[@class='pages-nav nav-icon linux bott-sprite']",
+        "dropdown_control": "//*[@id='startholder']/div[2]/div[2]/div/div[2]/div/div[1]/div/div[6]/div/div[1]/div[2]/div/span",
+        "list_locator": "//div[@class='dropdown-scroll ps-container ps-theme-default ps-active-y']//span",
+        "btn_download": "//div[@class='bottom-page horizontal-centered-bl mid-wide']//button[@class='mega-button positive transition megaapp-linux-download download'][normalize-space()='Download']"
+
+
+
+
+      }
+}
+

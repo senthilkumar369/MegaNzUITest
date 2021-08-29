@@ -1,0 +1,117 @@
+1630216310482	geckodriver	INFO	Listening on 127.0.0.1:65240
+1630216313484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofileei6Rld"
+1630216438834	geckodriver	INFO	Listening on 127.0.0.1:51497
+1630216441893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofilezBHast"
+1630216442557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofilezBHast\\search.json.mozlz4", (void 0)))
+1630216445781	Marionette	INFO	Listening on port 56463
+1630216446098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630216449366	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1630216451234	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.io/fae57772-a4cf-4d6a-b918-e672815024db, line 0: Successfully compiled asm.js code (total compilation time 91ms)
+JavaScript warning: blob:https://mega.io/2621f9a8-513f-47b1-99eb-b4d7d1a2ee05, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.io/2621f9a8-513f-47b1-99eb-b4d7d1a2ee05, line 0: Successfully compiled asm.js code (total compilation time 58ms)
+JavaScript warning: blob:https://mega.io/2621f9a8-513f-47b1-99eb-b4d7d1a2ee05, line 0: Successfully compiled asm.js code (total compilation time 544ms)
+JavaScript warning: blob:https://mega.io/2621f9a8-513f-47b1-99eb-b4d7d1a2ee05, line 0: Successfully compiled asm.js code (total compilation time 16ms)
+1630216456718	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1630216458674	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.nz/13dd7ba1-03f5-4247-b65e-7bcb6c2d34aa, line 0: Successfully compiled asm.js code (total compilation time 81ms)
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 164989: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 0: Successfully compiled asm.js code (total compilation time 88ms)
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 0: Successfully compiled asm.js code (total compilation time 607ms)
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 0: Successfully compiled asm.js code (total compilation time 11ms)
+JavaScript warning: blob:https://mega.nz/6ede941d-a3b2-4f03-98d1-fdcc9f5b8d85, line 47668: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630216992588	Marionette	INFO	Stopped listening on port 56463
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+compiled asm.js code (total compilation time 65ms)
+JavaScript warning: blob:https://mega.io/f16ebbe2-1005-4c3f-b622-bac51a6c70d5, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.io/f16ebbe2-1005-4c3f-b622-bac51a6c70d5, line 0: Successfully compiled asm.js code (total compilation time 47ms)
+JavaScript warning: blob:https://mega.io/f16ebbe2-1005-4c3f-b622-bac51a6c70d5, line 0: Successfully compiled asm.js code (total compilation time 468ms)
+JavaScript warning: blob:https://mega.io/f16ebbe2-1005-4c3f-b622-bac51a6c70d5, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+1630216582620	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.nz/360d94a6-0095-469d-a7e2-d17cc40c5f1f, line 0: Successfully compiled asm.js code (total compilation time 99ms)
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 164989: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 0: Successfully compiled asm.js code (total compilation time 35ms)
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 0: Successfully compiled asm.js code (total compilation time 447ms)
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 0: Successfully compiled asm.js code (total compilation time 10ms)
+JavaScript warning: blob:https://mega.nz/a930768e-1048-4355-9a7b-3083b8c1f0b7, line 47668: unreachable code after return statement
+1630216620926	Marionette	INFO	Stopped listening on port 56085
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630218561034	geckodriver	INFO	Listening on 127.0.0.1:61564
+1630218564101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofileJkR5fS"
+1630218565366	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofileJkR5fS\\search.json.mozlz4", (void 0)))
+1630218571736	Marionette	INFO	Listening on port 59514
+1630218572057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630218576000	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1630218577858	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.io/12cf5af5-8c32-4e80-b53e-a1934555a109, line 0: Successfully compiled asm.js code (total compilation time 73ms)
+JavaScript warning: blob:https://mega.io/a4c49484-5c8c-4066-9c20-6bf48e0cbce1, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.io/a4c49484-5c8c-4066-9c20-6bf48e0cbce1, line 0: Successfully compiled asm.js code (total compilation time 48ms)
+JavaScript warning: blob:https://mega.io/a4c49484-5c8c-4066-9c20-6bf48e0cbce1, line 0: Successfully compiled asm.js code (total compilation time 423ms)
+JavaScript warning: blob:https://mega.io/a4c49484-5c8c-4066-9c20-6bf48e0cbce1, line 0: Successfully compiled asm.js code (total compilation time 15ms)
+1630218584777	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.nz/c4cef6c8-835c-4685-89ee-f485f1b83f5e, line 0: Successfully compiled asm.js code (total compilation time 67ms)
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 164989: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 0: Successfully compiled asm.js code (total compilation time 40ms)
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 0: Successfully compiled asm.js code (total compilation time 529ms)
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 0: Successfully compiled asm.js code (total compilation time 12ms)
+JavaScript warning: blob:https://mega.nz/8263b145-8d95-4c53-85c5-98ddb3b77820, line 47668: unreachable code after return statement
+1630218665127	Marionette	INFO	Stopped listening on port 59514
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630220105439	geckodriver	INFO	Listening on 127.0.0.1:61099
+1630220108516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofileybXa2N"
+1630220109710	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\senthilk\\AppData\\Local\\Temp\\rust_mozprofileybXa2N\\search.json.mozlz4", (void 0)))
+1630220112738	Marionette	INFO	Listening on port 63733
+1630220112816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630220116401	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1630220117805	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.io/71f2c18f-8b4e-45f4-b0f3-bd560682ee03, line 0: Successfully compiled asm.js code (total compilation time 83ms)
+JavaScript warning: blob:https://mega.io/6fcb7022-9cea-43cc-9c94-451fc96a7cca, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: blob:https://mega.io/6fcb7022-9cea-43cc-9c94-451fc96a7cca, line 0: Successfully compiled asm.js code (total compilation time 40ms)
+JavaScript warning: blob:https://mega.io/6fcb7022-9cea-43cc-9c94-451fc96a7cca, line 0: Successfully compiled asm.js code (total compilation time 436ms)
+JavaScript warning: blob:https://mega.io/6fcb7022-9cea-43cc-9c94-451fc96a7cca, line 0: Successfully compiled asm.js code (total compilation time 12ms)
+1630220124591	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.nz/1b55ee27-991b-4a09-9e8a-971c2c5d3c84, line 0: Successfully compiled asm.js code (total compilation time 57ms)
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 164989: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 0: Successfully compiled asm.js code (total compilation time 40ms)
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 0: Successfully compiled asm.js code (total compilation time 412ms)
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/02c4f037-8834-40bc-9447-9fde80d1da6b, line 164989: unreachable code after return statement
+1630220140903	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: blob:https://mega.nz/bfc7952b-11e4-4637-bdbc-f6c99c79a2fd, line 0: Successfully compiled asm.js code (total compilation time 62ms)
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 47668: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 164989: unreachable code after return statement
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 0: Successfully compiled asm.js code (total compilation time 36ms)
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 0: Successfully compiled asm.js code (total compilation time 412ms)
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+JavaScript warning: blob:https://mega.nz/a889aa00-b194-46e7-96ff-043fef1e0b5c, line 47668: unreachable code after return statement
+1630220179622	Marionette	INFO	Stopped listening on port 63733
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

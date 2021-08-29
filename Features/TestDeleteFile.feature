@@ -1,4 +1,4 @@
-Feature: Test file creation features
+Feature: Test file Deletion features
 
   Background: Login into Mega
       Given Open Mega Portal

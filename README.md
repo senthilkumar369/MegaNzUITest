@@ -18,3 +18,27 @@ requirements.txt file contains all the python packages needed to run this framew
 reports_json directory contains the json files generated with allure reports
 
 Final Report contains HTML report of the result
+
+-------------------------------------------------------------------------------------------
+
+Please Note - Please install required libraries, please requiremenet.txt
+
+Behave Allure command to run from command prompt
+
+To run all the features available under feature folder 
+
+To select browser , change browser=Chrome,Firefox or Edge
+Output stores in -o Mega_test_run_Json
+
+
+behave  -D browser=Chrome -f allure_behave.formatter:AllureFormatter  -o Mega_test_run_Json  -f pretty features/
+
+To run a feature file, run the following command from the working directory.
+
+behave  -D browser=Chrome -f allure_behave.formatter:AllureFormatter  -o Mega_test_run_Json  -f pretty features/TestCreateFile.feature
+
+
+To run, failed test cases.
+
+behave  -D browser=Firefox -f allure_behave.formatter:AllureFormatter  -o Mega_test_run_Json  -f pretty @rerun_failure.feature
+
